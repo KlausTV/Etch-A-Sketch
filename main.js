@@ -1,6 +1,7 @@
 console.log("Script executed");
 // Variables
 const container = document.querySelector(".container");
+const cells = document.getElementsByClassName("cell");
 
 function makeRows(numRows) {
   // Calculate the total number of cells needed
